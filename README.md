@@ -1,0 +1,9 @@
+### Analyzing FOSS License Usage in Publicly Available Software at Scale via the SWH-Analytics Framework
+
+The Software Heritage (SWH) dataset represents an invaluable source of open-source code as it aims to collect, preserve, and share all publicly available software in source code form ever produced by humankind. Although designed to archive deduplicated small files thanks to the use of a Merkle tree as the underlying data structure, querying the SWH dataset presents challenges due to the nature of these structures, which organize content based on hash values rather than any locality principle. The magnitude of the repository, coupled with the resource-intensive nature of the download process, highlights the need for specialized infrastructure and computational resources to effectively handle and study the extensive dataset housed within SWH. Currently, there is a lack of infrastructures specifically tailored for running analytics on the SWH dataset, leaving users to handle these issues manually. 
+
+To address these challenges, we presented the SWH-Analytics (SWHA) framework, a development environment that transparently runs custom analytic applications on publicly available software data preserved over time by SWH. Specifically, this work shows how SWHA can be effectively exploited to study usage patterns of free and open-source software (FOSS) licenses, highlighting the need to improve license literacy among developers.
+
+------------------------------------------------------------------------------------------------
+
+This repository contains two Jupyter notebooks to reproduce the experiments described in the article _Analyzing FOSS License Usage in Publicly Available Software at Scale via the SWH-Analytics Framework_ by A. Antelmi, M. Torquati, G. Corridori, D. Gregori, F. Polzella, G. Spinatelli, and A. Aldinucci currently sumbitted to the Journal of Supercomputing.
